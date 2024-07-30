@@ -6,7 +6,7 @@ let currentSongIndex = -1; // Track the index of the current song
 
 async function getSongs() {
     try {
-        let response = await fetch("http://127.0.0.1:3000/songs");
+        let response = await fetch("/songs");
         if (!response.ok) {
             throw new Error(`Network response was not ok: ${response.statusText}`);
         }
