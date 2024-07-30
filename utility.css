@@ -1,0 +1,33 @@
+/* .border{
+    border: 2px solid rgb(255, 0, 0);
+} */
+.flex{    
+
+    display: flex;
+}
+.bg-grey{
+    background-color: #121212;
+}
+img{
+    filter: invert(1);
+}
+.m-1{
+    margin: 6px;
+
+}
+.p-1{
+    padding: 25px;
+}
+.bg-black{
+    background-color: black;
+}
+
+.bd-radius{
+    border-radius: 8px;
+}
+
+.cards-1{
+    filter: invert(0);
+}
+
+
